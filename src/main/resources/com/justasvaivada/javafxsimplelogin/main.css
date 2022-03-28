@@ -1,0 +1,43 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-border-image-width: 2px;
+    -fx-border-color: white;
+    -fx-border-radius: 3px;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #88ff00;
+    -fx-text-fill: #88ff00;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 3px;
+    -fx-border-insets: 2;
+}
+
+.jfx-slider > .track {
+    -fx-background-color: white;
+}
+
+.jfx-slider > .thumb {
+    -fx-background-color: #88ff00;
+}
+
+.jfx-slider > .colored-track {
+    -fx-background-color: #88ff00;
+}
+
+.jfx-slider > .animated-thumb {
+    -fx-background-color: transparent;
+}
+
+.jfx-slider .slider-value {
+    -fx-stroke: transparent;
+    -fx-text-fill: transparent;
+    -fx-fill: transparent;
+}
